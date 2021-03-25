@@ -1,8 +1,6 @@
 file_name = "./input.txt"
 input_file = open(file_name, "r")
 all_lines = input_file.readlines()
-input_num = 0
-num_word_dict = {}
 output = ""
 output_flag = 0
 for this_line in all_lines:
